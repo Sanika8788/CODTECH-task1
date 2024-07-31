@@ -1,8 +1,12 @@
 # CODTECH-task1
 Name: Sanika Dinde
-Company : CODTECH IT SOLUTION 
+
+Company : CODTECH IT SOLUTION
+
 ID : CT08DS4688 
+
 Domain : Java Programming
+
 Duration : 10th july - 10th august 2024
 
 Overview Of the Project
