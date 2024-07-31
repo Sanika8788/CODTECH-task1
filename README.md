@@ -12,3 +12,8 @@ Project : Simple Calculator
 It is simple Calculator program in java programming language which can
 help to user to make simple  calculation of two numbers using operations like addition ,substraction, multiply,divide choosing the operation numbers are given in program.
 
+![Uploading Screenshot 2024-07-31 163654.png…]()
+
+
+
+
