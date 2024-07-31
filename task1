@@ -1,0 +1,45 @@
+/* Simple Calculator Program Using Java Programming Language in Eclipse IDE. In this program user to enter two numbers and choose an operation like addition,substraction,
+multiplication, divide.then it should perform the selected operation and display the result to the user.*/
+package simplecalculator;
+
+import java.util.Scanner;
+
+public class JavaTestClass {
+	public static void main(String [] arguments) {
+           int operator ,n1,n2;
+           System.out.println(" 1 - Add \n 2 - Substract \n 3 - Multiply \n 4 - Divide");
+           System.out.println("Choose OPerator: ");
+           Scanner sc = new Scanner(System.in);
+           operator = sc.nextInt();
+           System.out.println("Enter First number : ");
+           n1 = sc.nextInt();
+           System.out.println("Enter Second number : ");
+           n2 = sc.nextInt();
+           
+           int result = 0;
+           switch(operator) {
+           case 1:
+        	   result = n1 + n2;
+        	   break;
+           
+           case 2:
+        	   result = n1 - n2;
+        	   break;
+        	   
+           case 3:
+        	   result = n1 * n2;
+        	   break;
+        	   
+           case 4:
+        	   result = n1 / n2;
+        	   break;   
+        	  
+           default :
+        	   System.out.println("Enterd Operator is not valid");
+        }
+         
+           System.out.println("Result is : " + result);
+           
+	}
+
+}
